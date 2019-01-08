@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-// Components
-import RecentPosts from './recent_posts';
+import RecentPosts from './RecentPosts';
 
 class Home extends Component {
   render() {
     return (
       <div>
         RRRR
-        <RecentPosts/>
+        <RecentPosts />
       </div>
     );
   }

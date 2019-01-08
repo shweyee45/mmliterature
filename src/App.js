@@ -1,27 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // Components
-import Header from './components/header';
-import TopHeader from './components/header_top';
-import Footer from './components/footer';
-import Home from './components/home';
+import Header from './components/Header';
+import TopHeader from './components/HeaderTop';
+import Footer from './components/Footer';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="main_container">
-            <TopHeader/>
-            <Header/>
-            <Switch>
-              {/* <Route exact path="/news/:id" component={News}/>
+          <TopHeader />
+          <Header />
+          <Switch>
+            {/* <Route exact path="/news/:id" component={News}/>
               <Route exact path="/galleries/:id" component={GalleryItem}/> */}
-              <Route exact path="/" component={Home}/>
-            </Switch>
-            <Footer/>
+            <Route exact path="/" component={Home} />
+          </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );

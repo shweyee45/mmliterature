@@ -90,7 +90,7 @@ ol.list-style {
   background: #04091e;
   padding: 15px 0px;
 }
-.header-top .header-top-left ul li, 
+.header-top .header-top-left ul li,
 .header-top .header-top-right ul li {
   display: inline-block;
 }
@@ -134,7 +134,6 @@ ol.list-style {
 }
 .lnr {
   font-family: 'Linearicons-Free';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -189,9 +188,9 @@ ol.list-style {
   text-decoration: none;
   outline: none;
 }
-.main_container .navbar-nav .active>.nav-link, 
-.main_container .navbar-nav .nav-link.active, 
-.main_container .navbar-nav .nav-link.show, 
+.main_container .navbar-nav .active>.nav-link,
+.main_container .navbar-nav .nav-link.active,
+.main_container .navbar-nav .nav-link.show,
 .main_container .navbar-nav .show>.nav-link {
   color: #ee4266;
 }
