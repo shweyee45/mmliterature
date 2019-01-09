@@ -10,22 +10,22 @@ const TopHeader = () => (
           <ul>
             <li>
               <Link to="/">
-                <i class="fa fa-facebook" />
+                <i className="fa fa-facebook" />
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i class="fa fa-twitter" />
+                <i className="fa fa-twitter" />
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i class="fa fa-dribbble" />
+                <i className="fa fa-dribbble" />
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i class="fa fa-instagram" />
+                <i className="fa fa-instagram" />
               </Link>
             </li>
           </ul>
@@ -34,13 +34,13 @@ const TopHeader = () => (
           <ul>
             <li>
               <a href="tel:+440 012 3654 896">
-                <span class="lnr lnr-phone-handset" />
+                <span className="lnr lnr-phone-handset" />
                 <span>+440 012 3654 896</span>
               </a>
             </li>
             <li>
               <a href="mailto:support@colorlib.com">
-                <span class="lnr lnr-envelope" />
+                <span className="lnr lnr-envelope" />
                 <span>support@colorlib.com</span>
               </a>
             </li>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class RecentPosts extends Component {
   render() {
@@ -14,213 +15,293 @@ class RecentPosts extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-1.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Travel</a>
+                    <Link to="/posts/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
+                    <Link to="/posts/1">
                       Sed ut perspiciatis, unde omnis iste natus error sit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-2.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Technology, Lifestyle</a>
+                    <Link to="/posts/1">Health</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
-                      Ne bonorum praesent cum, labitur persequeris definitionem
-                      quo cu?
-                    </a>
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-3.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Health</a>
+                    <Link to="/posts/1">LifeStyle</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
-                      Postea senserit id eos, vivendo periculis ei qui
-                    </a>
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-4.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Travel</a>
+                    <Link to="/posts/1">Technology</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
+                    <Link to="/posts/1">
                       Sed ut perspiciatis, unde omnis iste natus error sit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-5.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Technology, Lifestyle</a>
+                    <Link to="/posts/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
-                      Ne bonorum praesent cum, labitur persequeris definitionem
-                      quo cu?
-                    </a>
-                  </h3>
-                  <ul className="post-meta">
-                    <li>
-                      <a href="author.html">John Doe</a>
-                    </li>
-                    <li>20 April 2018</li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col xs={12} sm={12} md={4}>
-              <div className="post">
-                <a className="post-img" href="/">
-                  <img src="/images/recent-posts/recent-post-6.jpg" alt="" />
-                </a>
-                <div className="post-body">
-                  <div className="post-category">
-                    <a href="category.html">Health</a>
-                  </div>
-                  <h3 className="post-title">
-                    <a href="blog-post.html">
-                      Postea senserit id eos, vivendo periculis ei qui
-                    </a>
-                  </h3>
-                  <ul className="post-meta">
-                    <li>
-                      <a href="author.html">John Doe</a>
-                    </li>
-                    <li>20 April 2018</li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col xs={12} sm={12} md={4}>
-              <div className="post">
-                <a className="post-img" href="/">
-                  <img src="/images/recent-posts/recent-post-7.jpg" alt="" />
-                </a>
-                <div className="post-body">
-                  <div className="post-category">
-                    <a href="category.html">Travel</a>
-                  </div>
-                  <h3 className="post-title">
-                    <a href="blog-post.html">
+                    <Link to="/posts/1">
                       Sed ut perspiciatis, unde omnis iste natus error sit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
+                  <img src="/images/recent-posts/recent-post-6.jpg" alt="" />
+                </Link>
+                <div className="post-body">
+                  <div className="post-category">
+                    <Link to="/posts/1">Travel</Link>
+                  </div>
+                  <h3 className="post-title">
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
+                  </h3>
+                  <ul className="post-meta">
+                    <li>
+                      <Link to="/posts/1">John Doe</Link>
+                    </li>
+                    <li>20 April 2018</li>
+                  </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={4}>
+              <div className="post">
+                <Link to="/posts/1" className="post-img">
+                  <img src="/images/recent-posts/recent-post-7.jpg" alt="" />
+                </Link>
+                <div className="post-body">
+                  <div className="post-category">
+                    <Link to="/posts/1">Travel</Link>
+                  </div>
+                  <h3 className="post-title">
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
+                  </h3>
+                  <ul className="post-meta">
+                    <li>
+                      <Link to="/posts/1">John Doe</Link>
+                    </li>
+                    <li>20 April 2018</li>
+                  </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={4}>
+              <div className="post">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-8.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Technology, Lifestyle</a>
+                    <Link to="/posts/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
-                      Ne bonorum praesent cum, labitur persequeris definitionem
-                      quo cu?
-                    </a>
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4}>
+            <Col xs={12} sm={12} md={6} lg={4}>
               <div className="post">
-                <a className="post-img" href="/">
+                <Link to="/posts/1" className="post-img">
                   <img src="/images/recent-posts/recent-post-1.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Health</a>
+                    <Link to="/posts/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="blog-post.html">
-                      Postea senserit id eos, vivendo periculis ei qui
-                    </a>
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/posts/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={4}>
+              <div className="post">
+                <Link to="/posts/1" className="post-img">
+                  <img src="/images/recent-posts/recent-post-2.jpg" alt="" />
+                </Link>
+                <div className="post-body">
+                  <div className="post-category">
+                    <Link to="/posts/1">Travel</Link>
+                  </div>
+                  <h3 className="post-title">
+                    <Link to="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </Link>
+                  </h3>
+                  <ul className="post-meta">
+                    <li>
+                      <Link to="/posts/1">John Doe</Link>
+                    </li>
+                    <li>20 April 2018</li>
+                  </ul>
+                  <p class="likes-comments">
+                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 06 Likes</Link>{' '}
+                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <Link to="/posts/1"> 02 Comments</Link>
+                  </p>
                 </div>
               </div>
             </Col>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <footer className="footer-area">
@@ -8,14 +9,14 @@ const Footer = () => (
         <Col xs={12} sm={12} md={4} lg={4}>
           <div className="footer-single-widget">
             <div className="footer-logo">
-              <a>
-                MM<span>L</span>ibrary
-              </a>
+              <Link to="/">
+                MM<span>L</span>iteratures
+              </Link>
             </div>
             <div className="copywrite-text mt-30">
               <p>
-                MMLibrary is sed ut perspiciatis, unde omnis iste natus error
-                sit Ne bonorum praesent cum.
+                MMLiteratures is a website where user can find the variety of
+                Myanmar books, novels, and articles.
               </p>
             </div>
           </div>
@@ -24,16 +25,16 @@ const Footer = () => (
           <div className="footer-single-widget">
             <ul className="footer-menu d-flex justify-content-between">
               <li>
-                <a>Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a>Categories</a>
+                <Link to="/">Categories</Link>
               </li>
               <li>
-                <a>About Us</a>
+                <Link to="/">About Us</Link>
               </li>
               <li>
-                <a>Contact Us</a>
+                <Link to="/">Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -49,7 +50,7 @@ const Footer = () => (
                 placeholder="Enter your mail"
               />
               <button type="button">
-                <i class="fa fa-arrow-right" />
+                <i className="fa fa-arrow-right" />
               </button>
             </form>
           </div>
@@ -60,31 +61,31 @@ const Footer = () => (
         <Col xs={12} sm={12} md={12} lg={8}>
           <div className="footer-copyright">
             Copyright ©2019 All rights reserved | This template is made with{' '}
-            <i class="fa fa-heart-o" aria-hidden="true" /> by{' '}
-            <a target="_blank">Myanmar Library</a>
+            <i className="fa fa-heart-o" aria-hidden="true" /> by{' '}
+            <Link to="/">Myanmar Literatures</Link>
           </div>
         </Col>
         <Col xs={12} sm={12} md={12} lg={4}>
           <ul className="footer-social">
             <li>
-              <a>
+              <Link to="/">
                 <i className="fa fa-facebook" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/">
                 <i className="fa fa-twitter" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/">
                 <i className="fa fa-dribbble" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a>
+              <Link to="/">
                 <i className="fa fa-instagram" />
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>
