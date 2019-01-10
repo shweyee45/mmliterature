@@ -1,44 +1,25 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import PostsHeader from './PostsHeader';
+import PostsShare from './PostsShare';
+import PostsDetail from './PostsDetail';
+import PostsTags from './PostsTags';
+import PostsAuthor from './PostsAurthor';
+import PostsRelated from './PostsRelated';
+import PostsComments from './PostsComments';
+import PostsCommentBox from './PostsCommentBox';
 
 class Post extends Component {
   render() {
     return (
       <div className="blog-section">
-        <div id="post-header" className="page-header">
-          <div
-            className="page-header-bg"
-            style={{ background: `url(/images/blogs/header-img.jpg)` }}
-          >
-            SSSSS
-          </div>
-          <Container>
-            <Row>
-              <Col md={10}>
-                <div className="post-category">
-                  <Link to="/">Lifestyle</Link>
-                </div>
-                <h1>
-                  Mel ut impetus suscipit tincidunt. Cum id ullum laboramus
-                  persequeris.
-                </h1>
-                <ul className="post-meta">
-                  <li>
-                    <Link to="/">John Doe</Link>
-                  </li>
-                  <li>20 April 2018</li>
-                  <li>
-                    <i className="fa fa-comments" /> 3
-                  </li>
-                  <li>
-                    <i className="fa fa-eye" /> 807
-                  </li>
-                </ul>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        <PostsHeader />
+        <PostsShare />
+        <PostsDetail />
+        <PostsTags />
+        <PostsAuthor />
+        <PostsRelated />
+        <PostsComments />
+        <PostsCommentBox />
       </div>
     );
   }

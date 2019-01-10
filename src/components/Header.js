@@ -46,10 +46,6 @@ class Header extends Component {
                       <NavDropdown.Item href="/category/:id">
                         Travel
                       </NavDropdown.Item>
-                      {/* <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                      </NavDropdown.Item> */}
                     </NavDropdown>
 
                     <Nav.Link href="/about_us">About Us</Nav.Link>
