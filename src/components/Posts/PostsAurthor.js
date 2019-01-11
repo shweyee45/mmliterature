@@ -17,7 +17,7 @@ class PostsAuthor extends Component {
               <div>
                 <Media className="author">
                   <div className="media-left mr-4">
-                    <Link to="/">
+                    <Link to="/author/1">
                       <img
                         width={100}
                         height={100}

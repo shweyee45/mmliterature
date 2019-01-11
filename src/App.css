@@ -373,7 +373,7 @@ ol.list-style {
   padding-right: 10px;
   z-index: 20;
   text-align: left;
-  font-weight: 700;
+  font-weight: 900;
   font-family: "Montserrat", sans-serif;
   color: #11151c;
 }
@@ -464,7 +464,7 @@ ol.list-style {
   text-decoration: none;
 }
 .post .post-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
 }
 .post.post-thumb .post-title a {
@@ -689,6 +689,10 @@ input {
 }
 .page-header h1 {
   font-size: 41.053px;
+  color: #fff;
+}
+.page-header p {
+  font-size: 20px;
   color: #fff;
 }
 .page-header .post-meta li {
@@ -920,4 +924,111 @@ blockquote.blockquote .blockquote-footer {
 }
 .post-comments .media {
   margin-bottom: 30px;
+}
+
+/* Post Ads CSS */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+.post-ads a img {
+  margin: 0 auto;
+}
+
+/* Post Categories CSS */
+.category-widget ul li {
+  padding: 15px 0px;
+  border-bottom: 1px solid #e8eaed;
+}
+.category-widget ul li a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.category-widget ul li a span {
+  float: right;
+  font-size: 14px;
+  color: #97989b;
+  margin-left: 15px;
+}
+
+/* Popular Posts CSS */
+.post.post-widget .post-img {
+  width: 130px;
+  height: auto;
+}
+.post-img > img {
+  width: 100%;
+  -webkit-transition: 1.6s -webkit-transform;
+  transition: 1.6s -webkit-transform;
+  transition: 1.6s transform;
+  transition: 1.6s transform, 1.6s -webkit-transform;
+}
+.post.post-widget .post-body {
+  position: relative;
+  background: transparent;
+  margin: 0px 0px 0px 3%;
+  padding: 0;
+}
+.post.post-widget .post-title {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+/* Contact Page CSS */
+.contact li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 55px;
+  padding-top: 5px;
+  min-height: 40px;
+}
+.contact li i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  background: #fff;
+  color: #ee4266;
+  border: 1px solid #e8eaed;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+/* Author Page CSS */
+.author .title {
+  font-size: 41.053px;
+  color: #fff;
+}
+.author .author-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.page-header .author .author-social li a {
+  color: #fff;
+}
+.post.author-posts .post-img {
+  width: 40%;
+}
+.post.author-posts .post-body {
+  /* margin: 0px 0px 0px calc(40% + 0px); */
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+}
+.post .post-category a:after {
+  content: ", ";
+  display: inline-block;
+}
+.post .post-category a:last-child:after {
+  content: none;
+}
+.post p {
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  color: #505050;
+  font-weight: 400;
 }
