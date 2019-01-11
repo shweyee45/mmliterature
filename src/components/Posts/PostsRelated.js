@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class PostsRelated extends Component {
   render() {
@@ -24,13 +25,13 @@ class PostsRelated extends Component {
                     <a href="category.html">Health</a>
                   </div>
                   <h3 className="post-title title-sm">
-                    <a href="blog-post.html">
+                    <Link to="/posts/1">
                       Postea senserit id eos, vivendo periculis ei qui
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
@@ -47,13 +48,13 @@ class PostsRelated extends Component {
                     <a href="category.html">Health</a>
                   </div>
                   <h3 className="post-title title-sm">
-                    <a href="blog-post.html">
+                    <Link to="/posts/1">
                       Postea senserit id eos, vivendo periculis ei qui
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
@@ -70,13 +71,13 @@ class PostsRelated extends Component {
                     <a href="category.html">Health</a>
                   </div>
                   <h3 className="post-title title-sm">
-                    <a href="blog-post.html">
+                    <Link to="/posts/1">
                       Postea senserit id eos, vivendo periculis ei qui
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="author.html">John Doe</a>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from './Slider';
+import { Link } from 'react-router-dom';
 
 class HotPosts extends Component {
   render() {
@@ -13,43 +14,43 @@ class HotPosts extends Component {
             </Col>
             <Col xs={12} sm={12} md={6} lg={4} className="hot-post-right">
               <div className="post post-thumb">
-                <a className="post-img" href="/">
+                <Link className="post-img" to="/posts/1">
                   <img src="/images/hot-post.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="/">LIFESTYLE</a>
+                    <Link to="/posts/1">LIFESTYLE</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="/">
+                    <Link to="/posts/1">
                       Sed ut perspiciatis, unde omnis iste natus error sit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="/">John Doe</a>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
                 </div>
               </div>
               <div className="post post-thumb">
-                <a className="post-img" href="/">
+                <Link className="post-img" to="/posts/1">
                   <img src="/images/hot-post-2.jpg" alt="" />
-                </a>
+                </Link>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="/">FASHION, LIFESTYLE</a>
+                    <Link to="/posts/1">FASHION, LIFESTYLE</Link>
                   </div>
                   <h3 className="post-title">
-                    <a href="/">
+                    <Link to="/posts/1">
                       Mel ut impetus suscipit tincidunt. Cum id ullum laboramus
                       persequeris
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <a href="/">John Doe</a>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>

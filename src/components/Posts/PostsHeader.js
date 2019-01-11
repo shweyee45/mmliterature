@@ -22,7 +22,7 @@ class PostsHeader extends Component {
               </h1>
               <ul className="post-meta">
                 <li>
-                  <Link to="/">John Doe</Link>
+                  <Link to="/author/1">John Doe</Link>
                 </li>
                 <li>20 April 2018</li>
                 <li>

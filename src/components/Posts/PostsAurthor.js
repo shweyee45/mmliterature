@@ -11,7 +11,7 @@ class PostsAuthor extends Component {
             <Col>
               <div className="author-title">
                 <h3 className="title">
-                  About <Link to="/">John Doe</Link>
+                  About <Link to="/author/1">John Doe</Link>
                 </h3>
               </div>
               <div>

@@ -17,15 +17,13 @@ const Author = () => (
           <Col md={10}>
             <div class="author media">
               <div class="media-left mr-4">
-                <a href="/">
-                  <img
-                    width="100"
-                    height="100"
-                    class="align-self-start author-img media-object"
-                    src="/images/author/avatar-1.jpg"
-                    alt="Generic placeholder"
-                  />
-                </a>
+                <img
+                  width="100"
+                  height="100"
+                  class="align-self-start author-img media-object"
+                  src="/images/author/avatar-1.jpg"
+                  alt="Generic placeholder"
+                />
               </div>
               <div class="media-body">
                 <h3 class="title">John Doe</h3>
@@ -86,14 +84,14 @@ const Author = () => (
                       <Link to="/">Travel</Link>
                     </div>
                     <h3 class="post-title">
-                      <Link to="/">
+                      <Link to="/posts/1">
                         Ne bonorum praesent cum, labitur persequeris
                         definitionem quo cu?
                       </Link>
                     </h3>
                     <ul class="post-meta">
                       <li>
-                        <a href="author.html">John Doe</a>
+                        <Link to="/author/1">John Doe</Link>
                       </li>
                       <li>20 April 2018</li>
                     </ul>
@@ -118,14 +116,14 @@ const Author = () => (
                       <Link to="/">Travel</Link>
                     </div>
                     <h3 class="post-title">
-                      <Link to="/">
+                      <Link to="/posts/1">
                         Ne bonorum praesent cum, labitur persequeris
                         definitionem quo cu?
                       </Link>
                     </h3>
                     <ul class="post-meta">
                       <li>
-                        <a href="author.html">John Doe</a>
+                        <Link to="/author/1">John Doe</Link>
                       </li>
                       <li>20 April 2018</li>
                     </ul>
@@ -150,14 +148,14 @@ const Author = () => (
                       <Link to="/">Travel</Link>
                     </div>
                     <h3 class="post-title">
-                      <Link to="/">
+                      <Link to="/posts/1">
                         Ne bonorum praesent cum, labitur persequeris
                         definitionem quo cu?
                       </Link>
                     </h3>
                     <ul class="post-meta">
                       <li>
-                        <a href="author.html">John Doe</a>
+                        <Link to="/author/1">John Doe</Link>
                       </li>
                       <li>20 April 2018</li>
                     </ul>
@@ -182,14 +180,14 @@ const Author = () => (
                       <Link to="/">Travel</Link>
                     </div>
                     <h3 class="post-title">
-                      <Link to="/">
+                      <Link to="/posts/1">
                         Ne bonorum praesent cum, labitur persequeris
                         definitionem quo cu?
                       </Link>
                     </h3>
                     <ul class="post-meta">
                       <li>
-                        <a href="author.html">John Doe</a>
+                        <Link to="/author/1">John Doe</Link>
                       </li>
                       <li>20 April 2018</li>
                     </ul>
@@ -214,14 +212,14 @@ const Author = () => (
                       <Link to="/">Travel</Link>
                     </div>
                     <h3 class="post-title">
-                      <Link to="/">
+                      <Link to="/posts/1">
                         Ne bonorum praesent cum, labitur persequeris
                         definitionem quo cu?
                       </Link>
                     </h3>
                     <ul class="post-meta">
                       <li>
-                        <a href="author.html">John Doe</a>
+                        <Link to="/author/1">John Doe</Link>
                       </li>
                       <li>20 April 2018</li>
                     </ul>

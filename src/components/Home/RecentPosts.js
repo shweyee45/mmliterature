@@ -31,14 +31,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -60,14 +60,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -89,14 +89,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -118,14 +118,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -147,14 +147,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -176,14 +176,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -205,14 +205,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -234,14 +234,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -263,14 +263,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>
@@ -292,14 +292,14 @@ class RecentPosts extends Component {
                   </h3>
                   <ul className="post-meta">
                     <li>
-                      <Link to="/posts/1">John Doe</Link>
+                      <Link to="/author/1">John Doe</Link>
                     </li>
                     <li>20 April 2018</li>
                   </ul>
-                  <p class="likes-comments">
-                    <i class="fa fa-heart-o" aria-hidden="true" />{' '}
+                  <p className="likes-comments">
+                    <i className="fa fa-heart-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 06 Likes</Link>{' '}
-                    <i class="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
+                    <i className="ml-20 fa fa-comment-o" aria-hidden="true" />{' '}
                     <Link to="/posts/1"> 02 Comments</Link>
                   </p>
                 </div>

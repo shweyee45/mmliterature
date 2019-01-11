@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Slider extends Component {
   render() {
@@ -23,10 +24,12 @@ class Slider extends Component {
           />
           <Carousel.Caption>
             <p className="category">Travel</p>
-            <h3>Top 5 Places To Start Your Vacation This Summer</h3>
+            <Link to="/posts/1">
+              <h3>Top 5 Places To Start Your Vacation This Summer</h3>
+            </Link>
             <ul className="post-meta">
               <li>
-                <a href="/">John Doe</a>
+                <Link to="/author/1">John Doe</Link>
               </li>
               <li>20 April 2018</li>
             </ul>
@@ -41,10 +44,12 @@ class Slider extends Component {
           />
           <Carousel.Caption>
             <p className="category">Health</p>
-            <h3>6 Facts - The Health Benefits of Swimming & Surfing</h3>
+            <Link to="/posts/1">
+              <h3>6 Facts - The Health Benefits of Swimming & Surfing</h3>
+            </Link>
             <ul className="post-meta">
               <li>
-                <a href="/">John Doe</a>
+                <Link to="/author/1">John Doe</Link>
               </li>
               <li>20 April 2018</li>
             </ul>
@@ -59,10 +64,12 @@ class Slider extends Component {
           />
           <Carousel.Caption>
             <p className="category">Lifestyle</p>
-            <h3>Popular Lifestyle Tips</h3>
+            <Link to="/posts/1">
+              <h3>Popular Lifestyle Tips</h3>
+            </Link>
             <ul className="post-meta">
               <li>
-                <a href="/">John Doe</a>
+                <Link to="/author/1">John Doe</Link>
               </li>
               <li>20 April 2018</li>
             </ul>

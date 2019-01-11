@@ -5,10 +5,10 @@ class PostsCategories extends Component {
   render() {
     return (
       <div className="post-cats mb-30">
-        <div class="section-title">
-          <h2 class="title">Categories</h2>
+        <div className="section-title">
+          <h2 className="title">Categories</h2>
         </div>
-        <div class="category-widget">
+        <div className="category-widget">
           <ul>
             <li>
               <Link to="/">
