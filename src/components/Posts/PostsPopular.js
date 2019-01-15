@@ -21,7 +21,7 @@ class PostsPopular extends Component {
               </Link>
               <Media.Body className="post-body">
                 <div className="post-category">
-                  <Link to="/posts/1">Lifestyle</Link>
+                  <Link to="/category/1">Lifestyle</Link>
                 </div>
                 <h3 className="post-title">
                   <Link to="/posts/1">
@@ -42,7 +42,7 @@ class PostsPopular extends Component {
               </Link>
               <Media.Body className="post-body">
                 <div className="post-category">
-                  <Link to="/posts/1">Lifestyle</Link>
+                  <Link to="/category/1">Lifestyle</Link>
                 </div>
                 <h3 className="post-title">
                   <Link to="/posts/1">
@@ -63,7 +63,7 @@ class PostsPopular extends Component {
               </Link>
               <Media.Body className="post-body">
                 <div className="post-category">
-                  <Link to="/posts/1">Lifestyle</Link>
+                  <Link to="/category/1">Lifestyle</Link>
                 </div>
                 <h3 className="post-title">
                   <Link to="/posts/1">

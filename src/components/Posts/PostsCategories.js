@@ -11,27 +11,27 @@ class PostsCategories extends Component {
         <div className="category-widget">
           <ul>
             <li>
-              <Link to="/">
+              <Link to="/category/1">
                 Lifestyle <span>451</span>
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/category/1">
                 Fashion <span>230</span>
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/category/1">
                 Technology <span>40</span>
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/category/1">
                 Travel <span>38</span>
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/category/1">
                 Health <span>24</span>
               </Link>
             </li>

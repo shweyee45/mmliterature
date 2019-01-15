@@ -14,7 +14,7 @@ class PostsHeader extends Component {
           <Row>
             <Col md={10}>
               <div className="post-category">
-                <Link to="/">Lifestyle</Link>
+                <Link to="/category/1">Lifestyle</Link>
               </div>
               <h1>
                 Mel ut impetus suscipit tincidunt. Cum id ullum laboramus

@@ -4,22 +4,44 @@ import { Link } from 'react-router-dom';
 import PostsAds from './Posts/PostsAds';
 import PostsCategories from './Posts/PostsCategories';
 import PostsPopular from './Posts/PostsPopular';
-import AuthorHeader from './Author/AuthorHeader';
+import CategoryHeader from './Category/CategoryHeader';
 
-const Author = () => (
+const Category = () => (
   <div className="content-wrapper">
-    <AuthorHeader />
+    <CategoryHeader />
     <div className="page-content mt-30">
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12} lg={8}>
             <div>
-              <div class="section-title">
+              {/* <div class="section-title">
                 <h2 class="title">Author's Posts</h2>
+              </div> */}
+              <div class="post post-thumb">
+                <a class="post-img" href="/posts/1">
+                  <img src="/images/hot-post-2.jpg" alt="" />
+                </a>
+                <div class="post-body">
+                  <div class="post-category">
+                    <a href="/category/1">LIFESTYLE</a>
+                  </div>
+                  <h3 class="post-title title-lg">
+                    <a href="/posts/1">
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                    </a>
+                  </h3>
+                  <ul class="post-meta">
+                    <li>
+                      <a href="/author/1">John Doe</a>
+                    </li>
+                    <li>20 April 2018</li>
+                  </ul>
+                </div>
               </div>
+
               <ul className="list-unstyled">
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-1.jpg"
@@ -51,7 +73,7 @@ const Author = () => (
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-2.jpg"
@@ -83,7 +105,7 @@ const Author = () => (
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-3.jpg"
@@ -115,7 +137,7 @@ const Author = () => (
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-4.jpg"
@@ -147,7 +169,7 @@ const Author = () => (
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-5.jpg"
@@ -198,4 +220,4 @@ const Author = () => (
   </div>
 );
 
-export default Author;
+export default Category;

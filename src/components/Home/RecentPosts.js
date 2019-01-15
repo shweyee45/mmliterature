@@ -21,8 +21,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-1.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark" as="button">
+                    <i className="fa fa-bookmark" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -50,8 +53,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-2.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Health</Link>
+                    <Link to="/category/1">Health</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -79,8 +85,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-3.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">LifeStyle</Link>
+                    <Link to="/category/1">LifeStyle</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -108,8 +117,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-4.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Technology</Link>
+                    <Link to="/category/1">Technology</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -137,8 +149,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-5.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -166,8 +181,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-6.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -195,8 +213,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-7.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -224,8 +245,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-8.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div className="bookmark">
+                    <i className="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -253,8 +277,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-1.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div class="bookmark">
+                    <i class="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">
@@ -282,8 +309,11 @@ class RecentPosts extends Component {
                   <img src="/images/recent-posts/recent-post-2.jpg" alt="" />
                 </Link>
                 <div className="post-body">
+                  <div class="bookmark">
+                    <i class="fa fa-bookmark-o" />
+                  </div>
                   <div className="post-category">
-                    <Link to="/posts/1">Travel</Link>
+                    <Link to="/category/1">Travel</Link>
                   </div>
                   <h3 className="post-title">
                     <Link to="/posts/1">

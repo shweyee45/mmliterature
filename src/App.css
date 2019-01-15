@@ -455,17 +455,21 @@ ol.list-style {
 }
 .post .post-category {
   margin-bottom: 10px;
+  width: 90%;
 }
 .post .post-category a {
   color: #ee4266;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .post .post-title {
   font-size: 16px;
   font-weight: 700;
+}
+.post .post-title.title-lg {
+  font-size: 25.629px;
 }
 .post.post-thumb .post-title a {
   color: #fff;
@@ -655,6 +659,7 @@ input {
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: #1b1c1e;
 }
 .page-header .page-header-bg:after {
   content: "";
@@ -688,8 +693,9 @@ input {
   text-transform: uppercase;
 }
 .page-header h1 {
-  font-size: 41.053px;
+  font-size: 36px;
   color: #fff;
+  text-transform: uppercase;
 }
 .page-header p {
   font-size: 20px;
@@ -700,6 +706,12 @@ input {
 }
 .page-header .post-meta li a {
   color: #fff;
+}
+.post .bookmark {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 18px;
 }
 
 /* Blog Social Share CSS */
@@ -1001,8 +1013,9 @@ blockquote.blockquote .blockquote-footer {
 
 /* Author Page CSS */
 .author .title {
-  font-size: 41.053px;
+  font-size: 36px;
   color: #fff;
+  text-transform: uppercase;
 }
 .author .author-social li {
   display: inline-block;
@@ -1031,4 +1044,44 @@ blockquote.blockquote .blockquote-footer {
   font-size: 16px;
   color: #505050;
   font-weight: 400;
+}
+
+/* User Page CSS */
+.followers-followings a {
+  color: #fff;
+  font-size: 14px;
+}
+.users-follwers {
+  position: relative;
+  margin-bottom: 30px;
+}
+.users-follwers .user-img {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.user-img > img {
+  width: 100%;
+  -webkit-transition: 1.6s -webkit-transform;
+  transition: 1.6s -webkit-transform;
+  transition: 1.6s transform;
+  transition: 1.6s transform, 1.6s -webkit-transform;
+  border-radius: 50%;
+}
+.user-title,
+.user-title a {
+  color: #ee4266;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+.no-follows {
+  color: #000;
+  font-size: 14px;
+}
+.no-follows a {
+  color: #000;
+  font-size: 14px;
 }

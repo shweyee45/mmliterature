@@ -4,22 +4,23 @@ import { Link } from 'react-router-dom';
 import PostsAds from './Posts/PostsAds';
 import PostsCategories from './Posts/PostsCategories';
 import PostsPopular from './Posts/PostsPopular';
-import AuthorHeader from './Author/AuthorHeader';
+import BookMarkHeader from './BookMarks/BookMarkHeader';
 
-const Author = () => (
+const BookMarks = () => (
   <div className="content-wrapper">
-    <AuthorHeader />
+    <BookMarkHeader />
     <div className="page-content mt-30">
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12} lg={8}>
             <div>
-              <div class="section-title">
+              {/* <div class="section-title">
                 <h2 class="title">Author's Posts</h2>
-              </div>
+              </div> */}
+
               <ul className="list-unstyled">
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-1.jpg"
@@ -43,15 +44,20 @@ const Author = () => (
                       </li>
                       <li>20 April 2018</li>
                     </ul>
-                    <p>
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam...
-                    </p>
+                    </p> */}
+                    <div class="section-row remove-bookmark text-right">
+                      <a class="primary-button" href="/">
+                        Remove
+                      </a>
+                    </div>
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-2.jpg"
@@ -75,15 +81,20 @@ const Author = () => (
                       </li>
                       <li>20 April 2018</li>
                     </ul>
-                    <p>
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam...
-                    </p>
+                    </p> */}
+                    <div class="section-row remove-bookmark text-right">
+                      <a class="primary-button" href="/">
+                        Remove
+                      </a>
+                    </div>
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-3.jpg"
@@ -107,15 +118,20 @@ const Author = () => (
                       </li>
                       <li>20 April 2018</li>
                     </ul>
-                    <p>
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam...
-                    </p>
+                    </p> */}
+                    <div class="section-row remove-bookmark text-right">
+                      <a class="primary-button" href="/">
+                        Remove
+                      </a>
+                    </div>
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-4.jpg"
@@ -139,15 +155,20 @@ const Author = () => (
                       </li>
                       <li>20 April 2018</li>
                     </ul>
-                    <p>
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam...
-                    </p>
+                    </p> */}
+                    <div class="section-row remove-bookmark text-right">
+                      <a class="primary-button" href="/">
+                        Remove
+                      </a>
+                    </div>
                   </Media.Body>
                 </Media>
                 <Media as="li" className="post author-posts">
-                  <Link to="/" className="post-img mr-30">
+                  <Link to="/posts/1" className="post-img mr-30">
                     <img
                       className="img-responsive"
                       src="/images/author/author-post-5.jpg"
@@ -171,11 +192,16 @@ const Author = () => (
                       </li>
                       <li>20 April 2018</li>
                     </ul>
-                    <p>
+                    {/* <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam...
-                    </p>
+                    </p> */}
+                    <div class="section-row remove-bookmark text-right">
+                      <a class="primary-button" href="/">
+                        Remove
+                      </a>
+                    </div>
                   </Media.Body>
                 </Media>
               </ul>
@@ -198,4 +224,4 @@ const Author = () => (
   </div>
 );
 
-export default Author;
+export default BookMarks;

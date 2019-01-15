@@ -37,13 +37,13 @@ class Header extends Component {
                   <Nav className="ml-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <NavDropdown title="Categories" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="/category/:id">
+                      <NavDropdown.Item href="/category/1">
                         Health
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="/category/:id">
+                      <NavDropdown.Item href="/category/1">
                         Lifestyle
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="/category/:id">
+                      <NavDropdown.Item href="/category/1">
                         Travel
                       </NavDropdown.Item>
                     </NavDropdown>

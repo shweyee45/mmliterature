@@ -22,7 +22,7 @@ class PostsRelated extends Component {
                 </a>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Health</a>
+                    <Link to="/category/1">Health</Link>
                   </div>
                   <h3 className="post-title title-sm">
                     <Link to="/posts/1">
@@ -45,7 +45,7 @@ class PostsRelated extends Component {
                 </a>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Health</a>
+                    <Link to="/category/1">Health</Link>
                   </div>
                   <h3 className="post-title title-sm">
                     <Link to="/posts/1">
@@ -68,7 +68,7 @@ class PostsRelated extends Component {
                 </a>
                 <div className="post-body">
                   <div className="post-category">
-                    <a href="category.html">Health</a>
+                    <Link to="/category/1">Health</Link>
                   </div>
                   <h3 className="post-title title-sm">
                     <Link to="/posts/1">
